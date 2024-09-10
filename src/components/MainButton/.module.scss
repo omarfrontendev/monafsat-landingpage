@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.button {
+    color: #FFF;
+    background-color: $orange__color;
+    padding: 15px 26px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}

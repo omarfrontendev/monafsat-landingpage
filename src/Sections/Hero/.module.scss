@@ -1,0 +1,43 @@
+.section {
+    background-color: #1E1E1E;
+    min-height: calc(100vh - 76px);
+    display: flex;
+    align-items: center;
+    padding: 90px 0;
+    .content {
+        display: flex;
+        gap: 90px;
+        .text__content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            color: #D2D4DA;
+            flex-basis: 50%;
+            .subtitle {
+                font-size: 22px;
+                line-height: 40px;
+            }
+            .title {
+                font-size: 37px;
+                font-weight: 600;
+                line-height: 55.87px;
+            }
+            .text {
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 40px;
+                margin-bottom: 20px;
+            }
+        }
+        .hero__image {
+            img {
+                position: absolute;
+                left: 0;
+                width: 50%;
+                max-width: 550px;
+                height: 460px;
+                border-radius: 0 20px 20px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
+    color: #FFF;
+    height: 76px;
+    .links__list,
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .links__list {
+        justify-content: flex-end;
+        gap: 24px;
+        li {
+            cursor: pointer;
+        }
+    }
+}
