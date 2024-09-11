@@ -30,3 +30,33 @@
         color: #5B5D6B;
     }
 }
+
+@media(max-width: 1380px) {
+    .box {
+        // padding: 16px 24px;
+        // border-radius: 24px;
+        .person__info {
+            .person__name {
+                font-size: 22px;
+                line-height: 22.89px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1199px) {
+    .box {
+        // padding: 16px 24px;
+        // border-radius: 24px;
+        .person__info {
+            .person__name {
+                font-size: 20px;
+                line-height: 22.89px;
+            }
+        }
+        .text {
+            font-size: 14px;
+            line-height: 28px;
+        }
+    }
+}

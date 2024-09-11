@@ -3,3 +3,8 @@
     flex-direction: column;
     row-gap: 88px;
 }
+@media(max-width: 1190px) {
+    .list {
+        row-gap: 45px;
+    }
+}

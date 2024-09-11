@@ -26,3 +26,53 @@
         }
     }
 }
+
+@media(max-width: 1380px) {
+    .box {
+        border-radius: 20px;
+        padding: 40px 18px;
+        .detail__info {
+            row-gap: 20px;
+            .val {
+                font-size: 28px;
+                line-height: 30px;
+            }
+            .attr {
+                font-size: 18px;
+                line-height: 18px;
+            }
+        }
+    }
+}
+@media(max-width: 1199px) {
+    .box {
+        border-radius: 16px;
+        padding: 30px 18px;
+        .detail__info {
+            row-gap: 20px;
+            .val {
+                font-size: 24px;
+                line-height: 26px;
+            }
+            .attr {
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media(max-width: 768px) {
+    .box {
+        border-radius: 12px;
+        padding: 24px 12px;
+        .detail__info {
+            row-gap: 14px;
+            .val {
+                font-size: 18px;
+                line-height: 26px;
+            }
+            .attr {
+                font-size: 12px;
+            }
+        }
+    }
+}

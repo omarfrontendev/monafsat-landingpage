@@ -51,3 +51,61 @@
         gap: 10px;
     }
 }
+
+@media(max-width: 1380px) {
+    .box {
+        gap: 28px;
+        &.main {
+            .image {
+                width: 499px;
+                height: 421px;
+                margin-bottom: 8px;
+            }
+        }
+        .image {
+            width: 245px;
+            height: 190px;
+            border-radius: 18px;
+        }
+        .content {
+            .title {
+                font-size: 18px;
+                line-height: 18.44px;
+                margin-bottom: 12px;
+            }
+            .text {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 14px;
+            }
+            .play__button {
+                gap: 4px;
+                font-size: 18px;
+                line-height: 20px;
+
+            }
+        }
+        .button__content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+
+@media(max-width: 1199px) {
+    .box {
+        gap: 28px;
+        flex-direction: column;
+        &.main {
+            .image {
+                width: auto;
+                height: 290px;
+            }
+        }
+        .image {
+            width: auto;
+            height: 290px;
+        }
+    }
+}
