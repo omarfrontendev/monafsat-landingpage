@@ -197,7 +197,9 @@
 
 @media(max-width: 575px) {
     .section {
+        padding: 40px 0 80px;
         .content {
+            gap: 40px;
             .text__content {
                 .text {
                     width: 100%;

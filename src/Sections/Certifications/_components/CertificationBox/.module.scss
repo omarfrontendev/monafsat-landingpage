@@ -128,3 +128,27 @@
         }
     }
 }
+@media(max-width: 575px) {
+    .box {
+        gap: 18px;
+        flex-direction: column !important;
+        .image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .text__content {
+            flex: 1;
+            .box__title {
+                font-size: 20px;
+                line-height: 28px;
+                margin-bottom: 8px;
+            }
+            .text {
+                margin-bottom: 10px;
+                max-width: 100%;
+            }
+        }
+    }
+}
