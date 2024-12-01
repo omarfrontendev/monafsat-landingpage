@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './.module.scss';
 import MainButton from '../../components/MainButton';
+import Me from '../../assets/me.jpeg'
 
 const Hero = () => {
   return (
@@ -15,12 +16,16 @@ const Hero = () => {
             <br />
             <span className={styles.sub__p}>تعلّم القرآن وتجويده على يد شيخ متمكن. احجز درسك الآن!</span>
           </p>
-          <MainButton>تواصل معي الآن</MainButton>
+          <MainButton>
+            <a href="https://wa.me/01552676719" target="_blank" className={styles.contact__btn}>
+              تواصل معي الآن
+            </a>
+          </MainButton>
         </div>
         <div className={styles.hero__image}>
           <img
-            src="https://images.unsplash.com/file-1695862006750-2a3aca1bfdfaimage?w=416&dpr=2&auto=format&fit=crop&q=60"
-            alt=""
+            src={Me}
+            alt="ragab_photo"
           />
         </div>
       </div>

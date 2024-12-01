@@ -15,7 +15,7 @@ const Home = () => {
         <div className="container">
           <Certifications />
           <Lectures />
-          <Review />
+          {/* <Review /> */}
         </div>
       </main>
       <Footer />

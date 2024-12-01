@@ -7,7 +7,8 @@
 
     .content {
         display: flex;
-        gap: 90px;
+        // gap: 90px;
+        justify-content: space-between;
 
         .text__content {
             display: flex;
@@ -43,15 +44,20 @@
 
         .hero__image {
             img {
-                position: absolute;
-                left: 0;
-                width: 50%;
-                max-width: 550px;
+                width: 400px;
                 height: 460px;
-                border-radius: 0 20px 20px 0;
+                border-radius: 20px;
             }
         }
     }
+}
+
+.contact__btn {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 @media(max-width: 1380px) {
@@ -82,15 +88,15 @@
                 }
             }
 
-            .hero__image {
-                img {
-                    // width: 50%;
-                    // max-width: 550px;
-                    top: 50%;
-                    transform: translateY(-40%);
-                    height: 360px;
-                }
-            }
+            // .hero__image {
+            //     img {
+            //         // width: 50%;
+            //         // max-width: 550px;
+            //         // top: 50%;
+            //         // transform: translateY(-40%);
+            //         height: 360px;
+            //     }
+            // }
         }
     }
 }
@@ -125,9 +131,9 @@
 
             .hero__image {
                 img {
-                    max-width: 400px;
-                    top: 50%;
-                    transform: translateY(-40%);
+                    // max-width: 400px;
+                    // top: 50%;
+                    // transform: translateY(-40%);
                     height: 350px;
                 }
             }
@@ -164,21 +170,21 @@
                     }
                 }
 
-                .hero__image {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                // .hero__image {
+                //     display: flex;
+                //     justify-content: center;
+                //     align-items: center;
 
-                    img {
-                        position: relative;
-                        max-width: 100%;
-                        width: 100%;
-                        top: 100%;
-                        transform: translateY(0);
-                        height: 350px;
-                        border-radius: 20px;
-                    }
-                }
+                //     img {
+                //         position: relative;
+                //         max-width: 100%;
+                //         width: 100%;
+                //         top: 100%;
+                //         transform: translateY(0);
+                //         height: 350px;
+                //         border-radius: 20px;
+                //     }
+                // }
             }
         }
     }
@@ -190,7 +196,7 @@
         min-height: auto;
 
         .content {
-            flex-direction: column-reverse;
+            // flex-direction: column-reverse;
 
             // gap: 90px;
             .text__content {
@@ -215,30 +221,31 @@
             }
 
             .hero__image {
-                display: flex;
-                justify-content: center;
-                align-items: center;
 
                 img {
-                    position: relative;
-                    max-width: 100%;
                     width: 100%;
-                    top: 100%;
-                    transform: translateY(0);
-                    height: 350px;
-                    border-radius: 20px;
                 }
             }
         }
     }
 }
 
-@media(max-width: 575px) {
+@media(max-width: 687px) {
     .section {
         padding: 40px 0 80px;
 
         .content {
+            flex-direction: column-reverse;
             gap: 40px;
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .section {
+        // padding: 40px 0 80px;
+
+        .content {
 
             .text__content {
                 .text {
@@ -246,21 +253,21 @@
                 }
             }
 
-            .hero__image {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            // .hero__image {
+            //     display: flex;
+            //     justify-content: center;
+            //     align-items: center;
 
-                img {
-                    position: relative;
-                    max-width: 100%;
-                    width: 100%;
-                    top: 100%;
-                    transform: translateY(0);
-                    height: 350px;
-                    border-radius: 20px;
-                }
-            }
+            //     img {
+            //         position: relative;
+            //         max-width: 100%;
+            //         width: 100%;
+            //         top: 100%;
+            //         transform: translateY(0);
+            //         height: 350px;
+            //         border-radius: 20px;
+            //     }
+            // }
         }
     }
 }

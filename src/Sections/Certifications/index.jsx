@@ -8,7 +8,6 @@ import Certification4 from '../../assets/certificatio4.jpg';
 import Certification5 from '../../assets/certificatio5.jpg';
 import Certification6 from '../../assets/certificatio6.jpg';
 
-
 const certifications = [
   {
     image: CertificationOne,
@@ -52,19 +51,10 @@ const Certifications = () => {
   return (
     <section id="certifications-section" className={`section ${styles.section}`}>
       <h2 className={`section__title`}>إجازاتي</h2>
-      {/* <p className={`section__subtitle`}>
-        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
-        النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من
-        النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-      </p> */}
       <div className={styles.list}>
         {certifications?.map((certificate, i) => (
           <CertificationBox key={i} title={certificate?.title} subtitle={certificate?.subtitle} image={certificate?.image} date={certificate?.date} />
         ))}
-        {/* <CertificationBox />
-        <CertificationBox />
-        <CertificationBox />
-        <CertificationBox /> */}
       </div>
     </section>
   );
